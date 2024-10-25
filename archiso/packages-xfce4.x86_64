@@ -46,8 +46,8 @@ iw
 iwd
 jfsutils
 kitty-terminfo
-less
 ldns
+less
 lftp
 libfido2
 libusb-compat
@@ -94,7 +94,6 @@ pv
 qemu-guest-agent
 refind
 reflector
-reiserfsprogs
 rp-pppoe
 rsync
 rxvt-unicode-terminfo
@@ -119,9 +118,8 @@ usb_modeswitch
 usbmuxd
 usbutils
 vim
-virtualbox-guest-utils-nox
+virtualbox-guest-utils
 vpnc
-wezterm-terminfo
 wireless-regdb
 wireless_tools
 wpa_supplicant
@@ -132,9 +130,9 @@ zsh
 
 #Carli Desktop
 #carli-grub-poly-light
-carli-grub-poly-dark
+#carli-grub-poly-dark
 sddm
-sddm-elegant-theme-git
+#sddm-elegant-theme-git
 bash-completion
 carli-keyring
 xfce4
