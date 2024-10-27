@@ -26,6 +26,17 @@
 #tput setaf 8 = light blue
 ##################################################################################################################
 
+if 	lsblk -f | grep btrfs > /dev/null 2>&1 ; then
+	echo
+	echo "################################################################## "
+	tput setaf 3
+	echo "Message"
+    echo "This script cannot run on a Btrfs filesystem. Exiting."
+    tput sgr0
+    echo
+    exit 1
+fi
+
 echo
 echo "################################################################## "
 tput setaf 2
